@@ -1,0 +1,34 @@
+{
+  "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
+  "category": "Productivity",
+  "createdby": "Wei Xia",
+  "description": "show real time stock price in US market",
+  "name": "Stock",
+  "readme": "",
+  "version": "",
+  "defaultIcon": "icon.png",
+  "webaddress": "http://weixia.info/",
+  "enabled": true,
+  "variables": {
+    "token": "pk_1831e90c83fb4d70aa51d62dcb9a02ee"
+  },
+  "commands": [
+    {
+      "type": "scriptfilter",
+      "command": "stock",
+      "title": "Add A Stock Symbol",
+      "subtitle": "",
+      "script_filter": "node index.js \"$1\"",
+      "running_subtext": "Checking",
+      "withspace": true,
+      "arg_type": "required",
+      "action": [
+        {
+          "modifiers": "normal",
+          "type": "clipboard",
+          "text": "{query}"
+        }
+      ]
+    }
+  ]
+}

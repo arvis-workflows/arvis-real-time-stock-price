@@ -1,0 +1,34 @@
+{
+  "name": "@jopemachine/arvis-real-time-stock-price",
+  "version": "0.0.2",
+  "description": "Get the real-time stock price from US stock market! (Dow Jones, Nasdaq, S&P 500) - stonks stonks stonks",
+  "repository": "https://github.com/Wei-Xia/arvis-stock-price-workflow",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup"
+  },
+  "author": {
+    "name": "Wei Xia",
+    "email": "hi@weixia.dev",
+    "url": "http://weixia.dev/"
+  },
+  "files": [
+    "index.js",
+    "arvis-workflow.json"
+  ],
+  "dependencies": {
+    "@jopemachine/arvish": "^0.1.28"
+  },
+  "keywords": [
+    "npm",
+    "npms",
+    "npmjs",
+    "arvis",
+    "arvis-workflow",
+    "workflow",
+    "alfy",
+    "stock"
+  ]
+}
