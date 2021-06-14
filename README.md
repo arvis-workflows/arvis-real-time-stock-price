@@ -22,19 +22,15 @@ _Requires [Node.js](https://nodejs.org) 8+._
 
 2. In IEX Cloud console, copy your own API Tokens.
 
-![002](/assets/002.jpg)
+![002](./assets/002.jpg)
 
 3. Install package by npm.
 
-![001](/assets/001.jpg)
-
 4. Add your token into this workflow's configuration and variables. Variable name must be `token`, and value is your token from IEX Cloud.
-
-![003](/assets/003.jpg)
 
 5. Type `stock AAPL` to test it out. The result is the latest price in subject, subtitle is the change in percentage and 52-week low & high price.
 
-![01](/assets/usage.gif)
+![01](./assets/usage.gif)
 
 
 ## API Library
