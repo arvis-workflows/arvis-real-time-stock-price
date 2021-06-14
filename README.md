@@ -2,6 +2,12 @@
 
 > Get the real-time stock price from US stock market! (Dow Jones, Nasdaq, S&P 500) - stonks stonks stonks
 
+## 🔗 This workflow is converted from [alfred-workflow](https://github.com/Wei-Xia/alfred-stock-price-workflow).
+
+* Note that there might be some code change or different actions from the original workflow.
+
+* Marked original workflow's creator to author.
+
 ## Install
 
 ```

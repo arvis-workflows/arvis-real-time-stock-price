@@ -1,11 +1,11 @@
 {
-  "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
+  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
   "category": "Productivity",
   "creator": "Wei Xia",
   "description": "show real time stock price in US market",
   "name": "Stock",
   "readme": "",
-  "version": "",
+  "version": "0.0.1",
   "defaultIcon": "icon.png",
   "webAddress": "http://weixia.info/",
   "enabled": true,
