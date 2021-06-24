@@ -4,8 +4,8 @@
   "creator": "Wei Xia",
   "description": "show real time stock price in US market",
   "name": "Stock",
-  "readme": "",
-  "version": "0.0.1",
+  "readme": "Get the real-time stock price from US stock market! (Dow Jones, Nasdaq, S&P 500) - stonks stonks stonks",
+  "version": "0.0.2",
   "defaultIcon": "icon.png",
   "webAddress": "http://weixia.info/",
   "enabled": true,
@@ -18,11 +18,11 @@
       "command": "stock",
       "title": "Add A Stock Symbol",
       "subtitle": "",
-      "scriptFilter": "node index.js \"$1\"",
+      "scriptFilter": "node index.js \"{query}\"",
       "runningSubtext": "Checking",
       "withspace": true,
       "argType": "required",
-      "action": [
+      "actions": [
         {
           "modifiers": "normal",
           "type": "clipboard",
