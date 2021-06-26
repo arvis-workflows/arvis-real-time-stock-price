@@ -5,7 +5,7 @@
   "description": "show real time stock price in US market",
   "name": "Stock",
   "readme": "Get the real-time stock price from US stock market! (Dow Jones, Nasdaq, S&P 500) - stonks stonks stonks",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "defaultIcon": "icon.png",
   "webAddress": "http://weixia.info/",
   "enabled": true,
