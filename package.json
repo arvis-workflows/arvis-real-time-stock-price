@@ -1,6 +1,6 @@
 {
   "name": "arvis-real-time-stock-price",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Get the real-time stock price from US stock market! (Dow Jones, Nasdaq, S&P 500) - stonks stonks stonks",
   "repository": "https://github.com/Wei-Xia/arvis-stock-price-workflow",
   "license": "MIT",
@@ -16,6 +16,7 @@
   },
   "files": [
     "index.js",
+    "icon.png",
     "arvis-workflow.json"
   ],
   "dependencies": {
