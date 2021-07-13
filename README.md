@@ -1,4 +1,4 @@
-# arvis-stock-price-workflow
+# arvis-real-time-stock-price
 
 > Get the real-time stock price from US stock market! (Dow Jones, Nasdaq, S&P 500) - stonks stonks stonks
 
